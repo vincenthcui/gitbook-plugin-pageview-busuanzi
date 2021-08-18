@@ -11,10 +11,10 @@ require(["gitbook", "jQuery"], function (gitbook, $) {
     var lastChild = bookHeader.children().last()
 
     var renderWrapper = $('<div class="page-view-wrapper dropdown pull-left">\
-        <span id="busuanzi_container_page_pv">\
-          <span class="btn toggle-dropdown">'+ iconSVg + '</span>\
-          <span id="busuanzi_value_page_pv"></span>\
-        </span>\
+          <span class="btn toggle-dropdown">'
+            + iconSVg +
+            '<span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv"></span></span>\
+          </span>\
       </div>')
 
     if (lastChild.length) {
