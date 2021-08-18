@@ -1,7 +1,8 @@
 module.exports = {
   book: {
     assets: './assets',
-    js: ['plugin.js']
+    js: ['plugin.js'],
+    css: ['plugin.css']
   },
   hooks: {
     'page:before': function(page) {
