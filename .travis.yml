@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "10.24.1"
+
+deploy:
+  provider: npm
+  email: "vincenthcui@qq.com"
+  api_key: "$API_KEY"
