@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-pageview-busuanzi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Vincent H Cui",
   "description": "gitbook pagebiew implemented by https://busuanzi.ibruce.info/",
   "main": "index.js",
